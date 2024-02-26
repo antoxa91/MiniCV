@@ -61,7 +61,7 @@ final class AboutView: UIView {
 
 // MARK: - ConfigurableViewProtocol
 extension AboutView: ConfigurableViewProtocol {
-    func configure(with model: ProfileViewModel) {
-        aboutProfileTextLabel.text = model.profile.about
+    func configure(with model: Profile) {
+        aboutProfileTextLabel.text = model.about
     }
 }

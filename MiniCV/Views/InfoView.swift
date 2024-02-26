@@ -118,13 +118,12 @@ final class InfoView: UIView {
 
 // MARK: - ConfigurableViewProtocol
 extension InfoView: ConfigurableViewProtocol {
-    
-    func configure(with model: ProfileViewModel) {
-        nameLabel.text = model.profile.name
-        bioLabel.text = model.profile.bio
-        locationLabel.text = model.profile.location
+    func configure(with model: Profile) {
+        nameLabel.text = model.name
+        bioLabel.text = model.bio
+        locationLabel.text = model.location
         
-        if let data = model.profile.image {
+        if let data = model.image {
             profileImageView.image = UIImage(data: data)
         } else {
             profileImageView.image = UIImage(resource: .profile)
