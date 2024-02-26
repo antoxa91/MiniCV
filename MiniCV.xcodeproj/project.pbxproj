@@ -17,6 +17,8 @@
 		C5D8109A2B8CFD1500EF9428 /* DynamicHeightCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D810992B8CFD1500EF9428 /* DynamicHeightCollectionView.swift */; };
 		C5D8109C2B8CFDEF00EF9428 /* AddCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8109B2B8CFDEF00EF9428 /* AddCell.swift */; };
 		C5D8109E2B8CFE2100EF9428 /* SkillCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8109D2B8CFE2100EF9428 /* SkillCell.swift */; };
+		C5D810A32B8D00A300EF9428 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D810A22B8D00A300EF9428 /* ProfileViewModel.swift */; };
+		C5D810A72B8D011D00EF9428 /* MiniCV.json in Resources */ = {isa = PBXBuildFile; fileRef = C5D810A62B8D011D00EF9428 /* MiniCV.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		C5D810992B8CFD1500EF9428 /* DynamicHeightCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicHeightCollectionView.swift; sourceTree = "<group>"; };
 		C5D8109B2B8CFDEF00EF9428 /* AddCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCell.swift; sourceTree = "<group>"; };
 		C5D8109D2B8CFE2100EF9428 /* SkillCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillCell.swift; sourceTree = "<group>"; };
+		C5D810A22B8D00A300EF9428 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		C5D810A62B8D011D00EF9428 /* MiniCV.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MiniCV.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,7 @@
 		C5D810792B8CF94800EF9428 /* MiniCV */ = {
 			isa = PBXGroup;
 			children = (
+				C5D810A12B8D009700EF9428 /* Model */,
 				C5D810912B8CFAAC00EF9428 /* SupportingFiles */,
 				C5D8108F2B8CF9FC00EF9428 /* Extensions */,
 				C5D810962B8CFCFB00EF9428 /* CollectionViewLayouts */,
@@ -117,6 +122,15 @@
 				C5D810992B8CFD1500EF9428 /* DynamicHeightCollectionView.swift */,
 			);
 			path = CollectionViewLayouts;
+			sourceTree = "<group>";
+		};
+		C5D810A12B8D009700EF9428 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C5D810A22B8D00A300EF9428 /* ProfileViewModel.swift */,
+				C5D810A62B8D011D00EF9428 /* MiniCV.json */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5D810872B8CF94A00EF9428 /* LaunchScreen.storyboard in Resources */,
+				C5D810A72B8D011D00EF9428 /* MiniCV.json in Resources */,
 				C5D810842B8CF94A00EF9428 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -192,6 +207,7 @@
 				C5D8107F2B8CF94800EF9428 /* ViewController.swift in Sources */,
 				C5D8109E2B8CFE2100EF9428 /* SkillCell.swift in Sources */,
 				C5D810952B8CFBF500EF9428 /* UIView + Extension.swift in Sources */,
+				C5D810A32B8D00A300EF9428 /* ProfileViewModel.swift in Sources */,
 				C5D8107B2B8CF94800EF9428 /* AppDelegate.swift in Sources */,
 				C5D810982B8CFD0A00EF9428 /* LeftAlignedCollectionViewFlowLayout.swift in Sources */,
 				C5D810932B8CFB7400EF9428 /* UIColor + Extension.swift in Sources */,
