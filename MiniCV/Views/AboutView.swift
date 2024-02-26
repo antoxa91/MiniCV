@@ -30,6 +30,7 @@ final class AboutView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupView()
+        setConstraints()
     }
     
     @available(*, unavailable)
@@ -42,7 +43,6 @@ final class AboutView: UIView {
         translatesAutoresizingMaskIntoConstraints = false
         backgroundColor = .dynamicSkillsViewColor
         addSubviews(aboutMeStaticLabel, aboutProfileTextLabel)
-        setConstraints()
     }
     
     private func setConstraints() {

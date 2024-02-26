@@ -73,15 +73,19 @@ final class InfoView: UIView {
     // MARK: Init
     override init(frame: CGRect) {
         super.init(frame: frame)
-        backgroundColor = .dynamicBackgroundColor
-        translatesAutoresizingMaskIntoConstraints = false
-        addSubviews(profileImageView, nameLabel, bioLabel, locationStackView)
+        setupView()
         setConstraints()
     }
     
     @available(*, unavailable)
     required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        fatalError()
+    }
+    
+    private func setupView() {
+        backgroundColor = .dynamicBackgroundColor
+        translatesAutoresizingMaskIntoConstraints = false
+        addSubviews(profileImageView, nameLabel, bioLabel, locationStackView)
     }
     
     // MARK: Layout
@@ -109,12 +113,11 @@ final class InfoView: UIView {
             locationStackView.centerXAnchor.constraint(equalTo: centerXAnchor),
             locationStackView.widthAnchor.constraint(lessThanOrEqualTo: widthAnchor)
         ])
-   }
+    }
 }
 
 // MARK: - ConfigurableViewProtocol
 extension InfoView: ConfigurableViewProtocol {
-    typealias ConfigirationModel = ProfileViewModel
     
     func configure(with model: ProfileViewModel) {
         nameLabel.text = model.profile.name
