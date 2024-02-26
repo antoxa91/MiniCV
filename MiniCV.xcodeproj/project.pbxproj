@@ -15,6 +15,8 @@
 		C5D810952B8CFBF500EF9428 /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D810942B8CFBF500EF9428 /* UIView + Extension.swift */; };
 		C5D810982B8CFD0A00EF9428 /* LeftAlignedCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D810972B8CFD0A00EF9428 /* LeftAlignedCollectionViewFlowLayout.swift */; };
 		C5D8109A2B8CFD1500EF9428 /* DynamicHeightCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D810992B8CFD1500EF9428 /* DynamicHeightCollectionView.swift */; };
+		C5D8109C2B8CFDEF00EF9428 /* AddCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8109B2B8CFDEF00EF9428 /* AddCell.swift */; };
+		C5D8109E2B8CFE2100EF9428 /* SkillCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8109D2B8CFE2100EF9428 /* SkillCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		C5D810942B8CFBF500EF9428 /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
 		C5D810972B8CFD0A00EF9428 /* LeftAlignedCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftAlignedCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 		C5D810992B8CFD1500EF9428 /* DynamicHeightCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicHeightCollectionView.swift; sourceTree = "<group>"; };
+		C5D8109B2B8CFDEF00EF9428 /* AddCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCell.swift; sourceTree = "<group>"; };
+		C5D8109D2B8CFE2100EF9428 /* SkillCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 		C5D810902B8CFA0800EF9428 /* CollectionViewCells */ = {
 			isa = PBXGroup;
 			children = (
+				C5D8109B2B8CFDEF00EF9428 /* AddCell.swift */,
+				C5D8109D2B8CFE2100EF9428 /* SkillCell.swift */,
 			);
 			path = CollectionViewCells;
 			sourceTree = "<group>";
@@ -184,10 +190,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5D8107F2B8CF94800EF9428 /* ViewController.swift in Sources */,
+				C5D8109E2B8CFE2100EF9428 /* SkillCell.swift in Sources */,
 				C5D810952B8CFBF500EF9428 /* UIView + Extension.swift in Sources */,
 				C5D8107B2B8CF94800EF9428 /* AppDelegate.swift in Sources */,
 				C5D810982B8CFD0A00EF9428 /* LeftAlignedCollectionViewFlowLayout.swift in Sources */,
 				C5D810932B8CFB7400EF9428 /* UIColor + Extension.swift in Sources */,
+				C5D8109C2B8CFDEF00EF9428 /* AddCell.swift in Sources */,
 				C5D8109A2B8CFD1500EF9428 /* DynamicHeightCollectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
