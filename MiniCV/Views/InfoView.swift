@@ -91,24 +91,24 @@ final class InfoView: UIView {
     }
     
     private func setConstraints() {
-       NSLayoutConstraint.activate([
-           profileImageView.topAnchor.constraint(equalTo: topAnchor),
-           profileImageView.centerXAnchor.constraint(equalTo: centerXAnchor),
-           profileImageView.widthAnchor.constraint(equalTo: widthAnchor, multiplier: 0.44),
-           profileImageView.heightAnchor.constraint(equalTo: widthAnchor, multiplier: 0.44),
-           
-           nameLabel.topAnchor.constraint(equalTo: profileImageView.bottomAnchor, constant: 16),
-           nameLabel.centerXAnchor.constraint(equalTo: centerXAnchor),
-           nameLabel.widthAnchor.constraint(equalTo: widthAnchor, multiplier: 0.7),
-           
-           bioLabel.topAnchor.constraint(equalTo: nameLabel.bottomAnchor, constant: 4),
-           bioLabel.leadingAnchor.constraint(equalTo: leadingAnchor),
-           bioLabel.trailingAnchor.constraint(equalTo: trailingAnchor),
-           
-           locationStackView.topAnchor.constraint(equalTo: bioLabel.bottomAnchor, constant: 2),
-           locationStackView.centerXAnchor.constraint(equalTo: centerXAnchor),
-           locationStackView.widthAnchor.constraint(lessThanOrEqualTo: widthAnchor)
-       ])
+        NSLayoutConstraint.activate([
+            profileImageView.topAnchor.constraint(equalTo: topAnchor),
+            profileImageView.centerXAnchor.constraint(equalTo: centerXAnchor),
+            profileImageView.widthAnchor.constraint(equalTo: widthAnchor, multiplier: 0.44),
+            profileImageView.heightAnchor.constraint(equalTo: widthAnchor, multiplier: 0.44),
+            
+            nameLabel.topAnchor.constraint(equalTo: profileImageView.bottomAnchor, constant: 16),
+            nameLabel.centerXAnchor.constraint(equalTo: centerXAnchor),
+            nameLabel.widthAnchor.constraint(equalTo: widthAnchor, multiplier: 0.7),
+            
+            bioLabel.topAnchor.constraint(equalTo: nameLabel.bottomAnchor, constant: 4),
+            bioLabel.leadingAnchor.constraint(equalTo: leadingAnchor),
+            bioLabel.trailingAnchor.constraint(equalTo: trailingAnchor),
+            
+            locationStackView.topAnchor.constraint(equalTo: bioLabel.bottomAnchor, constant: 2),
+            locationStackView.centerXAnchor.constraint(equalTo: centerXAnchor),
+            locationStackView.widthAnchor.constraint(lessThanOrEqualTo: widthAnchor)
+        ])
    }
 }
 

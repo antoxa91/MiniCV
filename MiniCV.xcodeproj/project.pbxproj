@@ -20,6 +20,7 @@
 		C5D810A32B8D00A300EF9428 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D810A22B8D00A300EF9428 /* ProfileViewModel.swift */; };
 		C5D810A72B8D011D00EF9428 /* MiniCV.json in Resources */ = {isa = PBXBuildFile; fileRef = C5D810A62B8D011D00EF9428 /* MiniCV.json */; };
 		C5D810A92B8D01FF00EF9428 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D810A82B8D01FF00EF9428 /* InfoView.swift */; };
+		C5D810AB2B8D060B00EF9428 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D810AA2B8D060B00EF9428 /* AboutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		C5D810A22B8D00A300EF9428 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		C5D810A62B8D011D00EF9428 /* MiniCV.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MiniCV.json; sourceTree = "<group>"; };
 		C5D810A82B8D01FF00EF9428 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		C5D810AA2B8D060B00EF9428 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				C5D810A82B8D01FF00EF9428 /* InfoView.swift */,
+				C5D810AA2B8D060B00EF9428 /* AboutView.swift */,
 				C5D810902B8CFA0800EF9428 /* CollectionViewCells */,
 			);
 			path = Views;
@@ -209,6 +212,7 @@
 			files = (
 				C5D8107F2B8CF94800EF9428 /* ViewController.swift in Sources */,
 				C5D8109E2B8CFE2100EF9428 /* SkillCell.swift in Sources */,
+				C5D810AB2B8D060B00EF9428 /* AboutView.swift in Sources */,
 				C5D810952B8CFBF500EF9428 /* UIView + Extension.swift in Sources */,
 				C5D810A32B8D00A300EF9428 /* ProfileViewModel.swift in Sources */,
 				C5D8107B2B8CF94800EF9428 /* AppDelegate.swift in Sources */,
