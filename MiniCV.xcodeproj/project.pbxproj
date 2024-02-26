@@ -11,8 +11,10 @@
 		C5D8107F2B8CF94800EF9428 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8107E2B8CF94800EF9428 /* ViewController.swift */; };
 		C5D810842B8CF94A00EF9428 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5D810832B8CF94A00EF9428 /* Assets.xcassets */; };
 		C5D810872B8CF94A00EF9428 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D810852B8CF94A00EF9428 /* LaunchScreen.storyboard */; };
-		C5D810932B8CFB7400EF9428 /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D810922B8CFB7400EF9428 /* UIView + Extension.swift */; };
-		C5D810952B8CFBF500EF9428 /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D810942B8CFBF500EF9428 /* UIColor + Extension.swift */; };
+		C5D810932B8CFB7400EF9428 /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D810922B8CFB7400EF9428 /* UIColor + Extension.swift */; };
+		C5D810952B8CFBF500EF9428 /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D810942B8CFBF500EF9428 /* UIView + Extension.swift */; };
+		C5D810982B8CFD0A00EF9428 /* LeftAlignedCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D810972B8CFD0A00EF9428 /* LeftAlignedCollectionViewFlowLayout.swift */; };
+		C5D8109A2B8CFD1500EF9428 /* DynamicHeightCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D810992B8CFD1500EF9428 /* DynamicHeightCollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,8 +24,10 @@
 		C5D810832B8CF94A00EF9428 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5D810862B8CF94A00EF9428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5D810882B8CF94A00EF9428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C5D810922B8CFB7400EF9428 /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
-		C5D810942B8CFBF500EF9428 /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
+		C5D810922B8CFB7400EF9428 /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
+		C5D810942B8CFBF500EF9428 /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
+		C5D810972B8CFD0A00EF9428 /* LeftAlignedCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftAlignedCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		C5D810992B8CFD1500EF9428 /* DynamicHeightCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicHeightCollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			children = (
 				C5D810912B8CFAAC00EF9428 /* SupportingFiles */,
 				C5D8108F2B8CF9FC00EF9428 /* Extensions */,
+				C5D810962B8CFCFB00EF9428 /* CollectionViewLayouts */,
 				C5D8108E2B8CF9EF00EF9428 /* Views */,
 				C5D8107E2B8CF94800EF9428 /* ViewController.swift */,
 			);
@@ -75,8 +80,8 @@
 		C5D8108F2B8CF9FC00EF9428 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				C5D810922B8CFB7400EF9428 /* UIView + Extension.swift */,
-				C5D810942B8CFBF500EF9428 /* UIColor + Extension.swift */,
+				C5D810922B8CFB7400EF9428 /* UIColor + Extension.swift */,
+				C5D810942B8CFBF500EF9428 /* UIView + Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -97,6 +102,15 @@
 				C5D810882B8CF94A00EF9428 /* Info.plist */,
 			);
 			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		C5D810962B8CFCFB00EF9428 /* CollectionViewLayouts */ = {
+			isa = PBXGroup;
+			children = (
+				C5D810972B8CFD0A00EF9428 /* LeftAlignedCollectionViewFlowLayout.swift */,
+				C5D810992B8CFD1500EF9428 /* DynamicHeightCollectionView.swift */,
+			);
+			path = CollectionViewLayouts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,9 +184,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5D8107F2B8CF94800EF9428 /* ViewController.swift in Sources */,
-				C5D810952B8CFBF500EF9428 /* UIColor + Extension.swift in Sources */,
+				C5D810952B8CFBF500EF9428 /* UIView + Extension.swift in Sources */,
 				C5D8107B2B8CF94800EF9428 /* AppDelegate.swift in Sources */,
-				C5D810932B8CFB7400EF9428 /* UIView + Extension.swift in Sources */,
+				C5D810982B8CFD0A00EF9428 /* LeftAlignedCollectionViewFlowLayout.swift in Sources */,
+				C5D810932B8CFB7400EF9428 /* UIColor + Extension.swift in Sources */,
+				C5D8109A2B8CFD1500EF9428 /* DynamicHeightCollectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
