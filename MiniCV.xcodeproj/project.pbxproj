@@ -68,7 +68,7 @@
 		C5D810792B8CF94800EF9428 /* MiniCV */ = {
 			isa = PBXGroup;
 			children = (
-				C5D810A12B8D009700EF9428 /* Model */,
+				C5D810A12B8D009700EF9428 /* Models */,
 				C5D810912B8CFAAC00EF9428 /* SupportingFiles */,
 				C5D8108F2B8CF9FC00EF9428 /* Extensions */,
 				C5D810962B8CFCFB00EF9428 /* CollectionViewLayouts */,
@@ -124,13 +124,13 @@
 			path = CollectionViewLayouts;
 			sourceTree = "<group>";
 		};
-		C5D810A12B8D009700EF9428 /* Model */ = {
+		C5D810A12B8D009700EF9428 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				C5D810A22B8D00A300EF9428 /* ProfileViewModel.swift */,
 				C5D810A62B8D011D00EF9428 /* MiniCV.json */,
 			);
-			path = Model;
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
