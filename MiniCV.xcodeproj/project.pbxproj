@@ -11,6 +11,8 @@
 		C5D8107F2B8CF94800EF9428 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8107E2B8CF94800EF9428 /* ViewController.swift */; };
 		C5D810842B8CF94A00EF9428 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5D810832B8CF94A00EF9428 /* Assets.xcassets */; };
 		C5D810872B8CF94A00EF9428 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D810852B8CF94A00EF9428 /* LaunchScreen.storyboard */; };
+		C5D810932B8CFB7400EF9428 /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D810922B8CFB7400EF9428 /* UIView + Extension.swift */; };
+		C5D810952B8CFBF500EF9428 /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D810942B8CFBF500EF9428 /* UIColor + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		C5D810832B8CF94A00EF9428 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5D810862B8CF94A00EF9428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5D810882B8CF94A00EF9428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5D810922B8CFB7400EF9428 /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
+		C5D810942B8CFBF500EF9428 /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 		C5D8108F2B8CF9FC00EF9428 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				C5D810922B8CFB7400EF9428 /* UIView + Extension.swift */,
+				C5D810942B8CFBF500EF9428 /* UIColor + Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -164,7 +170,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5D8107F2B8CF94800EF9428 /* ViewController.swift in Sources */,
+				C5D810952B8CFBF500EF9428 /* UIColor + Extension.swift in Sources */,
 				C5D8107B2B8CF94800EF9428 /* AppDelegate.swift in Sources */,
+				C5D810932B8CFB7400EF9428 /* UIView + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
