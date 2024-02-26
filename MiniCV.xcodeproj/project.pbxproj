@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C5D8107B2B8CF94800EF9428 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8107A2B8CF94800EF9428 /* AppDelegate.swift */; };
-		C5D8107F2B8CF94800EF9428 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8107E2B8CF94800EF9428 /* ViewController.swift */; };
+		C5D8107F2B8CF94800EF9428 /* MiniCVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8107E2B8CF94800EF9428 /* MiniCVViewController.swift */; };
 		C5D810842B8CF94A00EF9428 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5D810832B8CF94A00EF9428 /* Assets.xcassets */; };
 		C5D810872B8CF94A00EF9428 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D810852B8CF94A00EF9428 /* LaunchScreen.storyboard */; };
 		C5D810932B8CFB7400EF9428 /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D810922B8CFB7400EF9428 /* UIColor + Extension.swift */; };
@@ -21,12 +21,13 @@
 		C5D810A72B8D011D00EF9428 /* MiniCV.json in Resources */ = {isa = PBXBuildFile; fileRef = C5D810A62B8D011D00EF9428 /* MiniCV.json */; };
 		C5D810A92B8D01FF00EF9428 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D810A82B8D01FF00EF9428 /* InfoView.swift */; };
 		C5D810AB2B8D060B00EF9428 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D810AA2B8D060B00EF9428 /* AboutView.swift */; };
+		C5D810AF2B8D0EFA00EF9428 /* SkillsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D810AE2B8D0EFA00EF9428 /* SkillsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C5D810772B8CF94800EF9428 /* MiniCV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniCV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D8107A2B8CF94800EF9428 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C5D8107E2B8CF94800EF9428 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C5D8107E2B8CF94800EF9428 /* MiniCVViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniCVViewController.swift; sourceTree = "<group>"; };
 		C5D810832B8CF94A00EF9428 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5D810862B8CF94A00EF9428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5D810882B8CF94A00EF9428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,6 +41,7 @@
 		C5D810A62B8D011D00EF9428 /* MiniCV.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MiniCV.json; sourceTree = "<group>"; };
 		C5D810A82B8D01FF00EF9428 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		C5D810AA2B8D060B00EF9428 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		C5D810AE2B8D0EFA00EF9428 /* SkillsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +79,7 @@
 				C5D8108F2B8CF9FC00EF9428 /* Extensions */,
 				C5D810962B8CFCFB00EF9428 /* CollectionViewLayouts */,
 				C5D8108E2B8CF9EF00EF9428 /* Views */,
-				C5D8107E2B8CF94800EF9428 /* ViewController.swift */,
+				C5D8107E2B8CF94800EF9428 /* MiniCVViewController.swift */,
 			);
 			path = MiniCV;
 			sourceTree = "<group>";
@@ -87,6 +89,7 @@
 			children = (
 				C5D810A82B8D01FF00EF9428 /* InfoView.swift */,
 				C5D810AA2B8D060B00EF9428 /* AboutView.swift */,
+				C5D810AE2B8D0EFA00EF9428 /* SkillsView.swift */,
 				C5D810902B8CFA0800EF9428 /* CollectionViewCells */,
 			);
 			path = Views;
@@ -210,7 +213,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5D8107F2B8CF94800EF9428 /* ViewController.swift in Sources */,
+				C5D810AF2B8D0EFA00EF9428 /* SkillsView.swift in Sources */,
+				C5D8107F2B8CF94800EF9428 /* MiniCVViewController.swift in Sources */,
 				C5D8109E2B8CFE2100EF9428 /* SkillCell.swift in Sources */,
 				C5D810AB2B8D060B00EF9428 /* AboutView.swift in Sources */,
 				C5D810952B8CFBF500EF9428 /* UIView + Extension.swift in Sources */,
