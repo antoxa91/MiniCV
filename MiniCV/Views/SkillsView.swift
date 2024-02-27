@@ -29,7 +29,7 @@ final class SkillsView: UIView {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.font = .systemFont(ofSize: 16, weight: .medium)
-        label.text = "Мои Навыки"
+        label.text = String(localized: "My Skills")
         return label
     }()
     

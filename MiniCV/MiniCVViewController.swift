@@ -50,7 +50,7 @@ final class MiniCVViewController: UIViewController {
     // MARK: Private Methods
     private func setupUI() {
         view.backgroundColor = .dynamicBackgroundColor
-        title = "Профиль"
+        title = String(localized: "Profile")
         navigationController?.navigationBar.barTintColor = .dynamicBackgroundColor
         view.addSubview(scrollView)
         scrollView.addSubviews(infoView, skillsView, aboutView)
@@ -68,11 +68,10 @@ final class MiniCVViewController: UIViewController {
 // MARK: - SkillsViewDelegate
 extension MiniCVViewController: SkillsViewDelegate {
     func didTapAddSkill() {
-        let ac = UIAlertController(title: "Добавить новый навык", message: nil, preferredStyle: .alert)
+        let ac = UIAlertController(title: String(localized: "Add a new skill"), message: nil, preferredStyle: .alert)
         ac.addTextField()
-        ac.addAction(UIAlertAction(title: "Отмена", style: .cancel))
-        
-        ac.addAction(UIAlertAction(title: "Добавить", style: .default) { [weak self, weak ac] _ in
+        ac.addAction(.init(title: String(localized: "Cancel"), style: .cancel))
+        ac.addAction(.init(title: String(localized: "Add"), style: .default) { [weak self, weak ac] _ in
             guard let skill = ac?.textFields?.first?.text,
                   !skill.trimmingCharacters(in: .whitespaces).isEmpty else {
                 return

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5A2DB0E2B8E53CF00365284 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = C5A2DB0D2B8E53CF00365284 /* Localizable.xcstrings */; };
 		C5D8107B2B8CF94800EF9428 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8107A2B8CF94800EF9428 /* AppDelegate.swift */; };
 		C5D8107F2B8CF94800EF9428 /* MiniCVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8107E2B8CF94800EF9428 /* MiniCVViewController.swift */; };
 		C5D810842B8CF94A00EF9428 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5D810832B8CF94A00EF9428 /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C5A2DB0D2B8E53CF00365284 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		C5D810772B8CF94800EF9428 /* MiniCV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniCV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D8107A2B8CF94800EF9428 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5D8107E2B8CF94800EF9428 /* MiniCVViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniCVViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				C5D8107E2B8CF94800EF9428 /* MiniCVViewController.swift */,
 				C5D810B22B8D252C00EF9428 /* ResumeViewControllerAssembly.swift */,
 				C5D810B42B8D260300EF9428 /* ProfileLoaderService.swift */,
+				C5A2DB0D2B8E53CF00365284 /* Localizable.xcstrings */,
 			);
 			path = MiniCV;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = C5D8106E2B8CF94800EF9428;
 			productRefGroup = C5D810782B8CF94800EF9428 /* Products */;
@@ -208,6 +212,7 @@
 			files = (
 				C5D810872B8CF94A00EF9428 /* LaunchScreen.storyboard in Resources */,
 				C5D810A72B8D011D00EF9428 /* MiniCV.json in Resources */,
+				C5A2DB0E2B8E53CF00365284 /* Localizable.xcstrings in Resources */,
 				C5D810842B8CF94A00EF9428 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

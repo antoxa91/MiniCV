@@ -14,7 +14,7 @@ final class AboutView: UIView {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.font = .systemFont(ofSize: 16, weight: .medium)
-        label.text = "О себе"
+        label.text = String(localized: "About me")
         return label
     }()
     
