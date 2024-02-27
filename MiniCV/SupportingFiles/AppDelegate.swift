@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import OSLog
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +16,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         let window = UIWindow(frame: UIScreen.main.bounds)
         window.makeKeyAndVisible()
-        window.rootViewController = MiniCVViewController()
+        
+        do {
+            window.rootViewController = try ResumeViewControllerAssembly().create()
+        } catch {
+            let logger = Logger()
+            logger.error("Не удалось создать ResumeViewController:: \(error.localizedDescription)")
+        }
+
         self.window = window
         return true
     }

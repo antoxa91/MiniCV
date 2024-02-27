@@ -22,6 +22,8 @@
 		C5D810A92B8D01FF00EF9428 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D810A82B8D01FF00EF9428 /* InfoView.swift */; };
 		C5D810AB2B8D060B00EF9428 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D810AA2B8D060B00EF9428 /* AboutView.swift */; };
 		C5D810AF2B8D0EFA00EF9428 /* SkillsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D810AE2B8D0EFA00EF9428 /* SkillsView.swift */; };
+		C5D810B32B8D252C00EF9428 /* ResumeViewControllerAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D810B22B8D252C00EF9428 /* ResumeViewControllerAssembly.swift */; };
+		C5D810B52B8D260300EF9428 /* ProfileLoaderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D810B42B8D260300EF9428 /* ProfileLoaderService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		C5D810A82B8D01FF00EF9428 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		C5D810AA2B8D060B00EF9428 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		C5D810AE2B8D0EFA00EF9428 /* SkillsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsView.swift; sourceTree = "<group>"; };
+		C5D810B22B8D252C00EF9428 /* ResumeViewControllerAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeViewControllerAssembly.swift; sourceTree = "<group>"; };
+		C5D810B42B8D260300EF9428 /* ProfileLoaderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileLoaderService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				C5D810962B8CFCFB00EF9428 /* CollectionViewLayouts */,
 				C5D8108E2B8CF9EF00EF9428 /* Views */,
 				C5D8107E2B8CF94800EF9428 /* MiniCVViewController.swift */,
+				C5D810B22B8D252C00EF9428 /* ResumeViewControllerAssembly.swift */,
+				C5D810B42B8D260300EF9428 /* ProfileLoaderService.swift */,
 			);
 			path = MiniCV;
 			sourceTree = "<group>";
@@ -223,8 +229,10 @@
 				C5D810982B8CFD0A00EF9428 /* LeftAlignedCollectionViewFlowLayout.swift in Sources */,
 				C5D810932B8CFB7400EF9428 /* UIColor + Extension.swift in Sources */,
 				C5D8109C2B8CFDEF00EF9428 /* AddCell.swift in Sources */,
+				C5D810B32B8D252C00EF9428 /* ResumeViewControllerAssembly.swift in Sources */,
 				C5D810A92B8D01FF00EF9428 /* InfoView.swift in Sources */,
 				C5D8109A2B8CFD1500EF9428 /* DynamicHeightCollectionView.swift in Sources */,
+				C5D810B52B8D260300EF9428 /* ProfileLoaderService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
