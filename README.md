@@ -25,3 +25,4 @@ ____
 7) О себе. Текстовый блок. Количество строк не ограничено. Значение - хардкод.
 
 ### Скриншоты
+![MiniCV screenshots](https://github.com/antoxa91/MiniCV/assets/69522563/3da8bde7-6fba-47cd-ba79-7491ed5e9fcb)
